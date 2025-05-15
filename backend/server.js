@@ -24,7 +24,7 @@ app.get("/api/reviews", (req, res) => {
   const productId = req.query.product;
   if (!productId) return res.status(400).json({ error: "Missing product ID" });
 
-  const filteredReviews = reviews.filter(review => review.productId.toString() === productId.toString());
+  const filteredReviews = reviews.filter(review => review.productId == productId);
   res.json(filteredReviews);
 });
 
