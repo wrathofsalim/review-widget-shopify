@@ -1,0 +1,637 @@
+[
+  {
+    "productId": "15066093093247",
+    "user": "Alice",
+    "comment": "Fantastic quality and fast shipping!",
+    "stars": 5,
+    "likes": 45,
+    "dislikes": 2,
+    "image": "https://example.com/review-image01.jpg"
+  },
+  {
+    "productId": "15066093093247",
+    "user": "Bob",
+    "comment": "Absolutely loved it, will buy again.",
+    "stars": 5,
+    "likes": 38,
+    "dislikes": 1,
+    "image": null
+  },
+  {
+    "productId": "15066093093247",
+    "user": "Charlie",
+    "comment": "The product did not meet my expectations.",
+    "stars": 2,
+    "likes": 5,
+    "dislikes": 20,
+    "image": "https://example.com/review-image02.jpg"
+  },
+  {
+    "productId": "15066093093247",
+    "user": "Diana",
+    "comment": "Very useful and affordable.",
+    "stars": 4,
+    "likes": 30,
+    "dislikes": 3,
+    "image": null
+  },
+  {
+    "productId": "15066093093247",
+    "user": "Ethan",
+    "comment": "Quality is mediocre, and delivery was late.",
+    "stars": 3,
+    "likes": 12,
+    "dislikes": 15,
+    "image": "https://example.com/review-image03.jpg"
+  },
+  {
+    "productId": "15066093093247",
+    "user": "Fiona",
+    "comment": "Exceeded my expectations in every way.",
+    "stars": 5,
+    "likes": 50,
+    "dislikes": 0,
+    "image": "https://example.com/review-image04.jpg"
+  },
+  {
+    "productId": "15066093093247",
+    "user": "George",
+    "comment": "Not satisfied with the product durability.",
+    "stars": 2,
+    "likes": 8,
+    "dislikes": 25,
+    "image": null
+  },
+  {
+    "productId": "15066093093247",
+    "user": "Hannah",
+    "comment": "A decent purchase for the price.",
+    "stars": 4,
+    "likes": 28,
+    "dislikes": 2,
+    "image": "https://example.com/review-image05.jpg"
+  },
+  {
+    "productId": "15066093093247",
+    "user": "Ian",
+    "comment": "The color didn't match the description.",
+    "stars": 3,
+    "likes": 10,
+    "dislikes": 12,
+    "image": null
+  },
+  {
+    "productId": "15066093093247",
+    "user": "Julia",
+    "comment": "Stunning design and great performance.",
+    "stars": 5,
+    "likes": 55,
+    "dislikes": 1,
+    "image": "https://example.com/review-image06.jpg"
+  },
+  {
+    "productId": "15066093093247",
+    "user": "Kevin",
+    "comment": "I had some issues with the installation.",
+    "stars": 3,
+    "likes": 9,
+    "dislikes": 14,
+    "image": null
+  },
+  {
+    "productId": "15066093093247",
+    "user": "Laura",
+    "comment": "Simply amazing! Highly recommend.",
+    "stars": 5,
+    "likes": 60,
+    "dislikes": 2,
+    "image": "https://example.com/review-image07.jpg"
+  },
+
+  {
+    "productId": "15066093093248",
+    "user": "Mike",
+    "comment": "Excellent product, works like a charm.",
+    "stars": 5,
+    "likes": 42,
+    "dislikes": 0,
+    "image": "https://example.com/review-image08.jpg"
+  },
+  {
+    "productId": "15066093093248",
+    "user": "Nina",
+    "comment": "Not worth the price, very disappointing.",
+    "stars": 2,
+    "likes": 7,
+    "dislikes": 18,
+    "image": null
+  },
+  {
+    "productId": "15066093093248",
+    "user": "Oscar",
+    "comment": "Had a good experience overall.",
+    "stars": 4,
+    "likes": 25,
+    "dislikes": 3,
+    "image": "https://example.com/review-image09.jpg"
+  },
+  {
+    "productId": "15066093093248",
+    "user": "Paula",
+    "comment": "I experienced issues right out of the box.",
+    "stars": 3,
+    "likes": 8,
+    "dislikes": 12,
+    "image": null
+  },
+  {
+    "productId": "15066093093248",
+    "user": "Quinn",
+    "comment": "The product quality is outstanding.",
+    "stars": 5,
+    "likes": 48,
+    "dislikes": 2,
+    "image": "https://example.com/review-image10.jpg"
+  },
+  {
+    "productId": "15066093093248",
+    "user": "Ryan",
+    "comment": "It stopped working after a week.",
+    "stars": 1,
+    "likes": 3,
+    "dislikes": 30,
+    "image": null
+  },
+  {
+    "productId": "15066093093248",
+    "user": "Sophie",
+    "comment": "Decent performance, but could be better.",
+    "stars": 3,
+    "likes": 15,
+    "dislikes": 8,
+    "image": "https://example.com/review-image11.jpg"
+  },
+  {
+    "productId": "15066093093248",
+    "user": "Tom",
+    "comment": "Impressive and reliable product.",
+    "stars": 5,
+    "likes": 35,
+    "dislikes": 1,
+    "image": null
+  },
+  {
+    "productId": "15066093093248",
+    "user": "Uma",
+    "comment": "Adequate, nothing spectacular.",
+    "stars": 3,
+    "likes": 12,
+    "dislikes": 5,
+    "image": "https://example.com/review-image12.jpg"
+  },
+  {
+    "productId": "15066093093248",
+    "user": "Victor",
+    "comment": "Loved the design but not the functionality.",
+    "stars": 3,
+    "likes": 10,
+    "dislikes": 10,
+    "image": null
+  },
+  {
+    "productId": "15066093093248",
+    "user": "Wendy",
+    "comment": "Customer service was very helpful.",
+    "stars": 4,
+    "likes": 20,
+    "dislikes": 2,
+    "image": "https://example.com/review-image13.jpg"
+  },
+  {
+    "productId": "15066093093248",
+    "user": "Xander",
+    "comment": "Excellent! Exceeded all expectations.",
+    "stars": 5,
+    "likes": 50,
+    "dislikes": 0,
+    "image": null
+  },
+
+  {
+    "productId": "15066093093249",
+    "user": "Yara",
+    "comment": "Superb quality and aesthetics.",
+    "stars": 5,
+    "likes": 55,
+    "dislikes": 1,
+    "image": "https://example.com/review-image14.jpg"
+  },
+  {
+    "productId": "15066093093249",
+    "user": "Zane",
+    "comment": "Not as durable as I expected.",
+    "stars": 3,
+    "likes": 12,
+    "dislikes": 9,
+    "image": null
+  },
+  {
+    "productId": "15066093093249",
+    "user": "Abby",
+    "comment": "Very satisfied with the purchase.",
+    "stars": 5,
+    "likes": 40,
+    "dislikes": 2,
+    "image": "https://example.com/review-image15.jpg"
+  },
+  {
+    "productId": "15066093093249",
+    "user": "Brian",
+    "comment": "The build quality could be improved.",
+    "stars": 3,
+    "likes": 14,
+    "dislikes": 11,
+    "image": null
+  },
+  {
+    "productId": "15066093093249",
+    "user": "Carmen",
+    "comment": "A worthwhile buy, excellent value.",
+    "stars": 4,
+    "likes": 30,
+    "dislikes": 3,
+    "image": "https://example.com/review-image16.jpg"
+  },
+  {
+    "productId": "15066093093249",
+    "user": "Derek",
+    "comment": "I encountered several issues with performance.",
+    "stars": 2,
+    "likes": 5,
+    "dislikes": 20,
+    "image": null
+  },
+  {
+    "productId": "15066093093249",
+    "user": "Elena",
+    "comment": "Sturdy, sleek, and efficient.",
+    "stars": 5,
+    "likes": 45,
+    "dislikes": 2,
+    "image": "https://example.com/review-image17.jpg"
+  },
+  {
+    "productId": "15066093093249",
+    "user": "Felix",
+    "comment": "Mediocre compared to competitors.",
+    "stars": 3,
+    "likes": 11,
+    "dislikes": 15,
+    "image": null
+  },
+  {
+    "productId": "15066093093249",
+    "user": "Gina",
+    "comment": "Very comfortable and ergonomic.",
+    "stars": 4,
+    "likes": 29,
+    "dislikes": 4,
+    "image": "https://example.com/review-image18.jpg"
+  },
+  {
+    "productId": "15066093093249",
+    "user": "Henry",
+    "comment": "Not satisfied; expected better performance.",
+    "stars": 2,
+    "likes": 8,
+    "dislikes": 19,
+    "image": null
+  },
+  {
+    "productId": "15066093093249",
+    "user": "Ivy",
+    "comment": "Exceeded expectations in every regard.",
+    "stars": 5,
+    "likes": 52,
+    "dislikes": 0,
+    "image": "https://example.com/review-image19.jpg"
+  },
+  {
+    "productId": "15066093093249",
+    "user": "Jack",
+    "comment": "A decent product but a bit overpriced.",
+    "stars": 3,
+    "likes": 16,
+    "dislikes": 7,
+    "image": null
+  },
+
+  {
+    "productId": "15066093093250",
+    "user": "Kate",
+    "comment": "Absolutely perfect! Totally recommend.",
+    "stars": 5,
+    "likes": 60,
+    "dislikes": 1,
+    "image": null
+  },
+  {
+    "productId": "15066093093250",
+    "user": "Liam",
+    "comment": "Works well, but the design is flawed.",
+    "stars": 3,
+    "likes": 20,
+    "dislikes": 10,
+    "image": "https://example.com/review-image20.jpg"
+  },
+  {
+    "productId": "15066093093250",
+    "user": "Mia",
+    "comment": "Impressive performance and sleek design.",
+    "stars": 5,
+    "likes": 55,
+    "dislikes": 0,
+    "image": null
+  },
+  {
+    "productId": "15066093093250",
+    "user": "Noah",
+    "comment": "Could use improvements in build quality.",
+    "stars": 3,
+    "likes": 18,
+    "dislikes": 12,
+    "image": "https://example.com/review-image21.jpg"
+  },
+  {
+    "productId": "15066093093250",
+    "user": "Olivia",
+    "comment": "A reliable purchase with great features.",
+    "stars": 4,
+    "likes": 35,
+    "dislikes": 3,
+    "image": null
+  },
+  {
+    "productId": "15066093093250",
+    "user": "Paul",
+    "comment": "Not what I expected, leaving a neutral review.",
+    "stars": 3,
+    "likes": 15,
+    "dislikes": 8,
+    "image": "https://example.com/review-image22.jpg"
+  },
+  {
+    "productId": "15066093093250",
+    "user": "Quincy",
+    "comment": "The product exceeded my expectations!",
+    "stars": 5,
+    "likes": 50,
+    "dislikes": 1,
+    "image": null
+  },
+  {
+    "productId": "15066093093250",
+    "user": "Ruby",
+    "comment": "Very decent, though there is room for improvement.",
+    "stars": 4,
+    "likes": 28,
+    "dislikes": 4,
+    "image": "https://example.com/review-image23.jpg"
+  },
+  {
+    "productId": "15066093093250",
+    "user": "Sam",
+    "comment": "Functional but not impressive design-wise.",
+    "stars": 3,
+    "likes": 12,
+    "dislikes": 11,
+    "image": null
+  },
+  {
+    "productId": "15066093093250",
+    "user": "Tina",
+    "comment": "Best purchase I've made this year.",
+    "stars": 5,
+    "likes": 65,
+    "dislikes": 2,
+    "image": "https://example.com/review-image24.jpg"
+  },
+  {
+    "productId": "15066093093250",
+    "user": "Umar",
+    "comment": "A bit underwhelming and overpriced.",
+    "stars": 2,
+    "likes": 8,
+    "dislikes": 20,
+    "image": null
+  },
+  {
+    "productId": "15066093093250",
+    "user": "Vera",
+    "comment": "Solid product with excellent customer support.",
+    "stars": 4,
+    "likes": 40,
+    "dislikes": 3,
+    "image": "https://example.com/review-image25.jpg"
+  },
+
+  {
+    "productId": "15066093093251",
+    "user": "Will",
+    "comment": "Satisfactory performance and good build.",
+    "stars": 4,
+    "likes": 33,
+    "dislikes": 1,
+    "image": null
+  },
+  {
+    "productId": "15066093093251",
+    "user": "Xena",
+    "comment": "Found the product acceptable overall.",
+    "stars": 3,
+    "likes": 15,
+    "dislikes": 4,
+    "image": "https://example.com/review-image26.jpg"
+  },
+  {
+    "productId": "15066093093251",
+    "user": "Yusuf",
+    "comment": "Impressed with the functionality.",
+    "stars": 5,
+    "likes": 45,
+    "dislikes": 0,
+    "image": null
+  },
+  {
+    "productId": "15066093093251",
+    "user": "Zara",
+    "comment": "Quality is average, nothing spectacular.",
+    "stars": 3,
+    "likes": 12,
+    "dislikes": 5,
+    "image": "https://example.com/review-image27.jpg"
+  },
+  {
+    "productId": "15066093093251",
+    "user": "Amelia",
+    "comment": "Works as expected without any surprises.",
+    "stars": 4,
+    "likes": 28,
+    "dislikes": 2,
+    "image": null
+  },
+  {
+    "productId": "15066093093251",
+    "user": "Brian",
+    "comment": "Had minor issues but overall satisfied.",
+    "stars": 4,
+    "likes": 30,
+    "dislikes": 3,
+    "image": "https://example.com/review-image28.jpg"
+  },
+  {
+    "productId": "15066093093251",
+    "user": "Celia",
+    "comment": "Not bad for the price point.",
+    "stars": 3,
+    "likes": 20,
+    "dislikes": 6,
+    "image": null
+  },
+  {
+    "productId": "15066093093251",
+    "user": "Dylan",
+    "comment": "Could be improved with better materials.",
+    "stars": 2,
+    "likes": 10,
+    "dislikes": 12,
+    "image": "https://example.com/review-image29.jpg"
+  },
+  {
+    "productId": "15066093093251",
+    "user": "Eva",
+    "comment": "Happy with the purchase, great value.",
+    "stars": 4,
+    "likes": 35,
+    "dislikes": 1,
+    "image": null
+  },
+  {
+    "productId": "15066093093251",
+    "user": "Finn",
+    "comment": "Expected higher performance for the price.",
+    "stars": 3,
+    "likes": 18,
+    "dislikes": 9,
+    "image": "https://example.com/review-image30.jpg"
+  },
+  {
+    "productId": "15066093093251",
+    "user": "Gwen",
+    "comment": "Really enjoyable to use, highly recommend.",
+    "stars": 5,
+    "likes": 50,
+    "dislikes": 2,
+    "image": null
+  },
+
+  {
+    "productId": "15066093093252",
+    "user": "Holly",
+    "comment": "Very effective and easy to use.",
+    "stars": 5,
+    "likes": 48,
+    "dislikes": 1,
+    "image": "https://example.com/review-image31.jpg"
+  },
+  {
+    "productId": "15066093093252",
+    "user": "Ian",
+    "comment": "It did the job, nothing more.",
+    "stars": 3,
+    "likes": 14,
+    "dislikes": 5,
+    "image": null
+  },
+  {
+    "productId": "15066093093252",
+    "user": "Jasmine",
+    "comment": "The product is decent but has flaws.",
+    "stars": 3,
+    "likes": 20,
+    "dislikes": 7,
+    "image": "https://example.com/review-image32.jpg"
+  },
+  {
+    "productId": "15066093093252",
+    "user": "Kyle",
+    "comment": "Disappointed with the performance.",
+    "stars": 2,
+    "likes": 8,
+    "dislikes": 15,
+    "image": null
+  },
+  {
+    "productId": "15066093093252",
+    "user": "Lara",
+    "comment": "Met my expectations and then some.",
+    "stars": 5,
+    "likes": 52,
+    "dislikes": 2,
+    "image": "https://example.com/review-image33.jpg"
+  },
+  {
+    "productId": "15066093093252",
+    "user": "Mike",
+    "comment": "Not up to the mark overall.",
+    "stars": 2,
+    "likes": 11,
+    "dislikes": 22,
+    "image": null
+  },
+  {
+    "productId": "15066093093252",
+    "user": "Nora",
+    "comment": "A solid product with reliable performance.",
+    "stars": 4,
+    "likes": 36,
+    "dislikes": 3,
+    "image": "https://example.com/review-image34.jpg"
+  },
+  {
+    "productId": "15066093093252",
+    "user": "Owen",
+    "comment": "Found it useful and of good quality.",
+    "stars": 4,
+    "likes": 32,
+    "dislikes": 4,
+    "image": null
+  },
+  {
+    "productId": "15066093093252",
+    "user": "Pam",
+    "comment": "It has some issues that need addressing.",
+    "stars": 3,
+    "likes": 13,
+    "dislikes": 8,
+    "image": "https://example.com/review-image35.jpg"
+  },
+  {
+    "productId": "15066093093252",
+    "user": "Quincy",
+    "comment": "Great value for the price.",
+    "stars": 5,
+    "likes": 44,
+    "dislikes": 1,
+    "image": null
+  },
+  {
+    "productId": "15066093093252",
+    "user": "Rose",
+    "comment": "Exceptional performance and design.",
+    "stars": 5,
+    "likes": 55,
+    "dislikes": 0,
+    "image": "https://example.com/review-image36.jpg"
+  }
+]
