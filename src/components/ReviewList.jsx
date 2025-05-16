@@ -13,7 +13,7 @@ const ReviewList = ({ reviews, currentPage, reviewsPerPage, onPageChange, totalR
     setDislikedReviews(new Set());
   }, [reviews]);
 
-  const totalPages = Math.ceil(totalReviews / reviewsPerPage);
+  // const totalPages = Math.ceil(totalReviews / reviewsPerPage);
 
   const sortedReviews = [...localReviews].sort((a, b) => {
     if (sortOption === "highest") return b.stars - a.stars;
