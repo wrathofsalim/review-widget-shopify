@@ -1,11 +1,10 @@
 import React from "react";
 import { HashRouter as Router, Routes, Route, useParams } from "react-router-dom";
-import ProductPage from "./components/ProductPage";
-import "./App.css";
-
+import ProductPage from "./pages/ProductPage";  
+import "./App.css";  
 function App() {
   return (
-    <Router>  {/* Router should only be here */}
+    <Router>
       <div className="App">
         <header className="App-header">
           <h1>Welcome to Our Store</h1>
