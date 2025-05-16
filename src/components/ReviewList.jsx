@@ -165,10 +165,10 @@ const ReviewList = ({ reviews, currentPage, reviewsPerPage, onPageChange, totalR
 
               <div className="review-likes">
                 <p>Was this helpful?</p>
-                <p onClick={() => handleLike(review.id)} className="like-button" style={{cursor: 'pointer'}}>
+                <p onClick={() => handleLike(review.id)} className="like-button" style={{ cursor: 'pointer' }}>
                   <LikeIcon active={liked} /> {review.likes}
                 </p>
-                <p onClick={() => handleDislike(review.id)} className="dislike-button" style={{cursor: 'pointer'}}>
+                <p onClick={() => handleDislike(review.id)} className="dislike-button" style={{ cursor: 'pointer' }}>
                   <DislikeIcon active={disliked} /> {review.dislikes}
                 </p>
               </div>
@@ -179,7 +179,7 @@ const ReviewList = ({ reviews, currentPage, reviewsPerPage, onPageChange, totalR
         <p>No reviews yet. Be the first to leave one!</p>
       )}
 
-      <div className="pagination">
+      {/* <div className="pagination">
         {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
           <button
             key={page}
@@ -189,7 +189,7 @@ const ReviewList = ({ reviews, currentPage, reviewsPerPage, onPageChange, totalR
             {page}
           </button>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
