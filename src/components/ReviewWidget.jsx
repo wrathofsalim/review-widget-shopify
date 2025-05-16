@@ -17,7 +17,6 @@ const ReviewWidget = ({ productId }) => {
     fetch(`http://localhost:5000/api/reviews?product=${productId}`)
       .then((response) => response.json())
       .then((data) => {
-        // Add unique ID to each review
         const reviewsWithId = data.map((review, index) => ({
           ...review,
           id: `${review.productId}_${review.user}_${index}`
@@ -47,7 +46,6 @@ const ReviewWidget = ({ productId }) => {
   };
 
   const handleReviewSubmitted = (newReview) => {
-    // Assign unique ID to new review
     const newId = `${newReview.productId}_${newReview.user}_${reviews.length}`;
     const newReviewWithId = { ...newReview, id: newId };
 
