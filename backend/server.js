@@ -9,23 +9,14 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const reviewsFile = path.join(__dirname, "reviews.json"); 
+const reviewsFile = path.join(__dirname, "reviews.json");
 let reviews = [];
 
 if (fs.existsSync(reviewsFile)) {
   try {
     const rawData = fs.readFileSync(reviewsFile, "utf8").trim();
-
-    if (!rawData || rawData === "[]" || rawData.length === 0) {
-      reviews = [];
-      fs.writeFileSync(reviewsFile, JSON.stringify(reviews, null, 2));
-    } else {
-      reviews = JSON.parse(rawData);
-      if (!Array.isArray(reviews)) {
-        reviews = [];
-        fs.writeFileSync(reviewsFile, JSON.stringify(reviews, null, 2));
-      }
-    }
+    reviews = rawData ? JSON.parse(rawData) : [];
+    if (!Array.isArray(reviews)) reviews = [];
   } catch (error) {
     console.error("Error reading reviews.json:", error);
     reviews = [];
@@ -36,10 +27,8 @@ if (fs.existsSync(reviewsFile)) {
 
 app.get("/api/reviews", (req, res) => {
   const productId = req.query.product;
-  if (!productId)
-    return res.status(400).json({ error: "Missing product ID" });
-
-  const filteredReviews = reviews.filter(review => review.productId == productId);
+  if (!productId) return res.status(400).json({ error: "Missing product ID" });
+  const filteredReviews = reviews.filter(r => r.productId == productId);
   res.json(filteredReviews);
 });
 
@@ -50,6 +39,7 @@ app.post("/api/reviews", (req, res) => {
   }
 
   const newReview = {
+    id: Date.now().toString(), // Add an ID if needed
     productId,
     user,
     comment,
@@ -57,6 +47,7 @@ app.post("/api/reviews", (req, res) => {
     likes: likes || 0,
     dislikes: dislikes || 0,
     image: image || null,
+    dateDate: new Date().toISOString()
   };
 
   reviews.push(newReview);
@@ -65,14 +56,6 @@ app.post("/api/reviews", (req, res) => {
   res.json({ message: "Review added successfully", review: newReview });
 });
 
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "build")));
-
-  app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "build", "index.html"));
-  });
-}
-
 app.listen(port, () => {
-  console.log(`Backend (API) running on port ${port}`);
+  console.log(`API backend running on port ${port}`);
 });
