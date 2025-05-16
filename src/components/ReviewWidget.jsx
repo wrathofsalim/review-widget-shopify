@@ -14,7 +14,7 @@ const ReviewWidget = ({ productId }) => {
 
   useEffect(() => {
     if (!productId) return;
-    fetch(`http://localhost:5000/api/reviews?product=${productId}`)
+    fetch(`https://review-widget-shopify.onrender.com/api/reviews?product=${productId}`)
       .then((response) => response.json())
       .then((data) => {
         const reviewsWithId = data.map((review, index) => ({
